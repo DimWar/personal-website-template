@@ -1,0 +1,44 @@
+@import '_contact.css';
+@import '_navbar.css';
+@import '_header.css';
+@import '_cours.css';
+@import '_about.css';
+@import '_hospital.css';
+@import '_galery.css';
+@import '_faq.css';
+@import '_scrol.css';
+@import '_footer.css';
+@font-face {
+    font-family: 'yekan';
+    src: url(../font/Yekan.woff)format('woff');
+}
+:root{
+    --custom-color : #132032;
+    --font-custom-color : #a9a8a8;
+    --hover-orang-color : rgb(236, 158, 12);
+    --nav-back : rgb(255, 255, 255);
+    --nav-color : #272626;
+}
+*,
+body {
+    font-family: 'yekan';
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+

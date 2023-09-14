@@ -1,0 +1,71 @@
+.hospital-section {
+    background-image: url(../img/bgimg-1.webp);
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+
+.hospital-text-box{
+    background-color: rgb(218, 218, 218);
+    min-height: 300px;
+    padding: 15px;
+    box-shadow: 0px 3px 20px #878787;
+    border-radius: 8px;
+    transition: 1.5s;
+    top: 2351px;
+    text-align: justify;
+}
+.hospital-section p{
+    color: #9a9a9a;
+}
+.hospital-section p:hover{
+    color: #3a3a3a;
+}
+p::selection{
+    color: #d1a206;
+}
+.hospital-section h5{
+    /* font-size: 20px; */
+    font-weight: bold;
+    color: #555555;
+}
+.top-1{
+    top:200px;
+    z-index: 10;
+}
+.top-2{
+    top:150px;
+    z-index: 9;
+}
+.top-3{
+    top: 100px;
+    z-index: 8;
+}
+.top-4{
+    top: 42px;
+    z-index: 7;
+}
+.top-4:hover{
+    top: 60px;
+    z-index:18;
+}
+.top-3:hover{
+    top: 70px;
+    z-index:18;
+}
+.top-2:hover{
+    top: 80px;
+    z-index:18;
+}
+.top-1:hover{
+    top: 90px;
+    z-index:18;
+}
+
+/* @media only screen and (max-width:800px){
+    .aboute-top-left-side:hover{
+        z-index: 20;
+        position: absolute;
+        
+    }
+} */

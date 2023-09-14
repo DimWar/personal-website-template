@@ -1,0 +1,118 @@
+.footer-section{
+    background-color: #132032;
+    min-height: 400px;
+    background-attachment: fixed;
+}
+.bg-fot {
+    background-image: url(../img/bgimg-1.webp);
+    background-attachment: fixed;
+    min-height: 20px;
+}
+.he{
+    min-height: 300px;
+}
+.police-card{
+    color: orange;
+    text-align: center;
+    border-top: 1px solid #959595;
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 1s;
+
+}
+.police-card:hover{
+    color: red;
+}
+.pacet-1-footer{
+    padding: 47px;
+    color: #959595;
+    overflow: auto;
+    
+}
+.pacet-1-footer p{
+    text-align: justify;
+    font-size: 14px;
+}
+
+.pacet-2-footer{
+    padding: 50px;
+    font-size: 16px;
+    color: #959595;
+}
+.pacet-2-footer ul{
+    padding: 10px;
+}
+.pacet-2-footer ul li::before{
+    content: '\276f';
+    padding: 5px;
+}
+.pacet-2-footer ul li a{
+    margin: 5px;
+}
+.footer-section .pacet-1-footer span{
+    color: orange;
+}
+.footer-section .pacet-1-footer h3 {
+    font-size: 16px;
+    display: inline;
+    vertical-align: 9px;
+    color: orange;
+    padding-right: 10px;
+}
+.pacet-2-footer span,h6{
+    color: orange;
+    display: inline;
+    font-size: 16px;
+}
+.pacet-2-footer h6{
+   vertical-align: 5px;
+}
+.pacet-2-footer ul li{
+    transition: 1s ease;
+}
+.pacet-2-footer ul li:hover{
+    color: orange;
+    transform: translate(-20px, 2px);
+}
+/* .pacet-3-footer ul{
+    padding: 20px;
+} */
+.pacet-3-footer {
+    padding: 50px;
+}
+.pacet-3-footer  p{
+    color: #959595;
+}
+.pacet-3-footer ul li{
+    display: inline;
+    color: #959595;
+    font-size: 35px;
+    padding: 20px;
+}
+.pacet-3-footer ul li a i{
+    transition-property: all;
+    transition-duration: 1s;
+}
+.pacet-3-footer ul li a:hover i{
+    color: orange;
+    transform: scale(1.5,1.5);
+}
+.pacet-4-footer{
+    color: #959595;
+    padding: 49px;
+}
+.pacet-4-footer ul li a i{
+    padding: 10px;
+   
+}
+.pacet-4-footer ul li a{
+    transition: 1s;
+}
+.pacet-4-footer ul li a:hover{
+    cursor: pointer;
+    color: orange;
+}
+.pacet-4-footer ul li address{
+    display: inline;
+}
